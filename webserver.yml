@@ -1,6 +1,6 @@
 ---
 - name: Install and configure NGINX
-  hosts: all
+  hosts: almalinux
   become: yes
   tasks:
     - name: Install NGINX
